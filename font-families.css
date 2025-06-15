@@ -2,11 +2,23 @@
 
 
 
+
+
 @font-face {
-    font-family: 'opendyslexicbold';
+    font-family: 'opendyslexic';
+    src: url('opendyslexic-webfont/opendyslexic-regular-webfont.woff2') format('woff2'),
+         url('opendyslexic-webfont/opendyslexic-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'opendyslexic';
     src: url('opendyslexic-webfont/opendyslexic-bold-webfont.woff2') format('woff2'),
          url('opendyslexic-webfont/opendyslexic-bold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 
 }
@@ -14,47 +26,31 @@
 
 
 
+
+
 @font-face {
-    font-family: 'opendyslexicbold-italic';
+    font-family: 'opendyslexic';
+    src: url('opendyslexic-webfont/opendyslexic-italic-webfont.woff2') format('woff2'),
+         url('opendyslexic-webfont/opendyslexic-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'opendyslexic';
     src: url('opendyslexic-webfont/opendyslexic-bold-italic-webfont.woff2') format('woff2'),
          url('opendyslexic-webfont/opendyslexic-bold-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: bold;
+    font-style: italic;
 
 }
 
 
 
 
-@font-face {
-    font-family: 'opendyslexicitalic';
-    src: url('opendyslexic-webfont/opendyslexic-italic-webfont.woff2') format('woff2'),
-         url('opendyslexic-italic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 
-
-
-@font-face {
-    font-family: 'opendyslexicregular';
-    src: url('opendyslexic-webfont/opendyslexic-regular-webfont.woff2') format('woff2'),
-         url('opendyslexic-webfont/opendyslexic-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'opendyslexicregular';
-    src: url('opendyslexic-webfont/opendyslexic-regular-webfont.woff2') format('woff2'),
-         url('opendyslexic-webfont/opendyslexic-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
